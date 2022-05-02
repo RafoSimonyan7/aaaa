@@ -1,0 +1,1313 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.loginPage {
+    width: auto;
+    height: 100vh;
+}
+
+.somediv {
+   display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.food_delivery {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginForm {
+    height: 80%;
+}
+
+.loginForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+
+.food {
+    color: #2B2B43;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.delivery {
+    color: #4E60FF;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+}
+
+.rememberCheckbox {
+    margin-bottom: 40px;
+}
+
+.loginTitle {
+    font-size: 50px;
+
+}
+
+.loginText {
+    width: 80%;
+}
+
+#paragraph {
+    color: #545563;
+}
+
+.loginField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28px;
+}
+
+.field {
+    height: 16px;
+    width: 350px;
+    color: #545563;
+    margin-bottom: 4px;
+}
+
+.com {
+    border: 1px solid #C7C8D2;
+    height: 44px;
+    width: 350px;
+    border-radius: 8px;
+
+}
+
+.password {
+    height: 16px;
+    width: 350px;
+    color: #545563;
+}
+.blue {
+    background-color: #4E60FF;
+    height: 44px;
+    width: 350px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+
+.login2 {
+    font-size: 30px;
+    letter-spacing: 0.3px;
+    color: rgb(158, 37, 37);
+    margin-left: 240px;
+    margin-bottom: 90px;
+    margin-top: 0px;
+}
+
+.forgot {
+    width: 350px;
+    color: #4E60FF;
+    background-color: #ffffff;
+    border-style: none;
+}
+
+.text {
+    height: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+.part {
+    background-color: #697BFF;
+    width: 800px;
+}
+
+.loginButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    height: 104px;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 100%;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.twodiv {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.foodDelivery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.twoCards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    flex-flow: row wrap;
+}
+
+.child1 {
+    background-color: rgb(255, 255, 255);
+    width: 313px;
+    border-radius: 14px;
+    margin-right: 28px;
+}
+
+.child2 {
+    width: 294px;
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 71px;
+}
+
+
+h3 {
+    font-size: 13px;
+    margin: 10px;
+}
+
+.four {
+    color: #4E60FF;
+}
+
+.ratingContainer {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.ratingIcon {
+    color: #4E60FF;
+}
+
+.none {
+    color: #777;
+}
+
+.selectSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 10px;
+}
+
+.nigiriSet {
+    width: 152px;
+    height: 105px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.nigiri {
+    border: none;
+}
+
+.nigiriSetImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sushiComment {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.sushiTitle {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2B2B43;
+}
+
+.partone {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.commentLike {
+    margin-right: 15px;
+}
+
+.leave {
+    width: 90px;
+    height: 40px;
+    border-radius: 14px;
+    color: #4E60FF;
+    border: 1px solid #4E60FF;
+    background-color: #ffffff;
+}
+
+.votes {
+    color: #83859C;
+    font-size: 9px;
+}
+
+.something {
+    height: 31px;
+    border-radius: 8px;
+    padding: 6px 8px 8px 12px;
+}
+
+.accountImg {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+.img {
+    width: 10px;
+    height: 9px;
+
+}
+
+.time {
+    color: #83859C;
+    font-size: 9px;
+    margin-left: 90px;
+
+}
+
+
+.commentText {
+    height: 54px;
+    width: 241px;
+    color: #2B2B43;
+    font-size: 14px;
+}
+
+
+.sushipic {
+    width: 267px;
+    height: 151px;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+
+.rollSet {
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.priceSection {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.sometext {
+    margin-left: 15px;
+    color: #83859C;
+    font-size: 13px;
+}
+
+h6 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-left: 13px;
+    padding: 1px;
+}
+
+.add {
+    color: #4E60FF;
+    background-color: #F3F4FF;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.rollInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.like {
+    height: 20px;
+    width: 20px;
+
+}
+
+.dislike {
+    height: 20px;
+    width: 20px;
+}
+
+.comment {
+    align-items: start;
+    margin-top: 10px;
+}
+
+.commentRate {
+    justify-content: start;
+}
+
+.commentRatings {
+    padding: 0;
+    margin-right: 5px;
+}
+
+.account {
+    height: 100%;
+
+}
+
+.newdiv {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.jacob {
+    margin: 7px;
+}
+
+
+.child3 {
+    width: 638px;
+    border-radius: 14px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: -1px -1px 10px 0 rgb(0 0 0 / 70%);
+    padding: 13px;
+}
+
+.foodText {
+    margin-bottom: 0;
+}
+
+.sushiPart {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+    left: -25px;
+}
+
+.sushi {
+    height: 102px;
+    width: 154px;
+}
+
+.some {
+    height: 31px;
+    width: 270.90411376953125px;
+    color: #83859C;
+
+
+}
+
+.number {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+}
+
+.take {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.increment {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.set {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    margin-top: 15px;
+}
+
+.input {
+    color: #4E60FF;
+    background-color: #F3F4FF;
+    border-radius: 7px;
+    border-style: none;
+    width: 112px;
+    height: 37px;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    background-color: #EDEEF2;
+    border-radius: 7px;
+}
+
+.leavetwo {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #ffffff;
+}
+
+.textwo {
+    height: 40px;
+    width: 480px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.featured {
+    position: relative;
+    background-color: #4E60FF;
+    left: 255px;
+    top: -166px;
+    width: 95px;
+    height: 32px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.colorone {
+    color: #545563;
+    font-size: 72px;
+}
+
+.colortwo {
+    color: #ffffff;
+    font-size: 72px;
+}
+
+
+.searchButton {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-left-width: 0;
+    height: 42px;
+    position: absolute;
+    border-style: hidden;
+}
+
+#search {
+    height: 40px;
+    width: 224px;
+    border-radius: 12px;
+    background: #EDEEF2;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right-width: 0;
+    border-style: hidden;
+}
+
+.parenttwo {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #c7c7c7;
+    margin-bottom: 10px;
+}
+
+.searchBar {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navSearch {
+    margin: 0 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    color: #2B2B43;
+
+}
+
+.newpic {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    border: 2px solid #4E60FF;
+    border-radius: 11px;
+    object-fit: cover;
+}
+
+.boxone {
+    width: 540px;
+    border-radius: 16px;
+    background-color: #f5def8;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.boxone .info, .boxtwo .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic1 {
+    height: 198.00000320708455px;
+    width: 184.00000313706087px;
+}
+
+.off {
+    height: 56px;
+    width: 210px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: 0.10000000149011612px;
+    color: #4E60FF;
+    margin: 0;
+}
+
+.deserty {
+    color: #83859C;
+    margin: 0;
+}
+
+.main {
+    width: 1110px;
+    height: 100vh;
+    margin: auto;
+}
+
+.boxtwo {
+    width: 540px;
+    border-radius: 16px;
+    background-color: #ddd695;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.pic2 {
+    height: 198.00000320708455px;
+    width: 184.00000313706087px;
+}
+
+.offtwo {
+    height: 56px;
+    width: 210px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: 0.10000000149011612px;
+    color: #FD6D22;
+    margin: 0;
+}
+
+.fooddies {
+    color: #83859C;
+}
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 50%;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+}
+
+.somediv2 {
+    margin-left: 20px;
+}
+
+.flex2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.borderone {
+    border: 1px solid #697BFF;
+    height: 80px;
+    width: 160px;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pizza {
+    height: 24px;
+    width: 24px;
+}
+
+.burger {
+    height: 24px;
+    width: 24px;
+}
+
+.bbq {
+    height: 24px;
+    width: 24px;
+}
+
+.sushi {
+    height: 24px;
+    width: 24px;
+}
+
+.vegan {
+    height: 24px;
+    width: 24px;
+}
+
+.desserts {
+    height: 24px;
+    width: 24px;
+}
+
+.nearby {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+
+.flex3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.cssborder1 {
+    border: 1px solid #b4aeae;
+    height: 276px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+
+.royalsushi {
+    height: 160px;
+    width: 350px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+/*
+.featured {
+    margin-left: 10px;
+
+    height: 16px;
+    width: 62px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.6000000238418579px;
+    color: white;
+    background-color: #4E60FF;
+}
+
+.background {
+    margin-left: 250px;
+    background-color: #4E60FF;
+    height: 32px;
+    width: 94px;
+    border-radius: 17px;
+} */
+.royal {
+    height: 24px;
+    width: 286px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+.clock {
+    margin-left: 17px;
+}
+
+.shopbag {
+    margin-left: 299px;
+    margin-top: -25px;
+}
+
+.meat {
+    height: 12px;
+    width: 12px;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+.cssborder2 {
+    margin-left: 50px;
+    border: 1px solid #b4aeae;
+    height: 276px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+}
+
+.burgpizpic {
+    height: 160px;
+    width: 350px;
+}
+
+.pngone {
+    height: 12px;
+    width: 12px;
+}
+
+
+.cssborder3 {
+    margin-left: 50px;
+    border: 1px solid #b4aeae;
+    height: 276px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+}
+
+.nsushi {
+    height: 160px;
+    width: 350px;
+}
+
+.settings {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.10000000149011612px;
+
+
+}
+
+.settingList {
+    border: 2px solid #4E60FF;
+    height: 72px;
+    width: 300px;
+    border-radius: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.settingIcon {
+    height: 40px;
+    width: 40px;
+    border-radius: 12px;
+    background: #c4c4c4;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    background: #4E60FF;
+}
+
+.first {
+    margin-top: 20px;
+}
+
+.fa {
+    color: rgb(105, 105, 105);
+}
+
+.someAccount {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #2B2B43;
+}
+
+.personal {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #545563;
+}
+
+.fas {
+    color: rgb(85, 85, 85);
+}
+
+.flex4 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.accounttwo {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 30px 0px;
+}
+
+.borderdiv {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #808285;
+    width: 730px;
+    margin-top: 20px;
+}
+
+.info {
+    height: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 16px;
+}
+
+.personalHeader {
+    margin-top: 24px;
+}
+
+.av {
+    height: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #545563;
+    margin-bottom: 8px;
+}
+
+.avatar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 16px 0px;
+}
+
+.personalImg {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+}
+
+
+.picav {
+    height: 80px;
+    width: 80px;
+    margin-left: 15px;
+    top: -30px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.brd {
+    border: 1px solid #4E60FF;
+    width: 70px;
+    height: 33px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.button {
+    margin-top: 5px;
+    margin-left: 7px;
+    width: 70px;
+    height: 33px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #ffffff;
+    color: #777;
+}
+
+.clicked {
+    border: 1px solid #4E60FF;
+    color: #4E60FF;
+}
+
+.firstname {
+    font-size: 12px;
+    font-weight: 600;
+    color: #545563;
+    margin-bottom: 4px;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.name {
+    height: 44px;
+    width: 311px;
+    border-radius: 8px;
+    border: 1px solid #b5b5b8;
+}
+
+.flex5 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex6 {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.not {
+    height: 24px;
+    width: 698px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+.checkboxPart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+    justify-content: space-evenly;
+}
+
+.flex7 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 108px;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.check {
+    margin-bottom: 10px;
+}
+
+
+.footer {
+    margin-bottom: 10px;
+}
+
+.checkboxes {
+    margin-bottom: 60px;
+}
+
+.log {
+    color: #FF5C60;
+    border: 1px solid #FF5C60;
+    width: 70px;
+    height: 30px;
+    border-radius: 11px;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dis {
+    color: #8a8888;
+    border: 1px solid #8a8888;
+    width: 120px;
+    height: 30px;
+    border-radius: 11px;
+    background-color: #ffffff;
+
+}
+
+.changes {
+    color: #ffffff;
+    border: 1px solid #8a8888;
+    width: 120px;
+    height: 30px;
+    border-radius: 11px;
+    background-color: #4E60FF;
+}
+
+.accountInfo {
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .main {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1188px) {
+    .main {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1174px) {
+    .sushiPart {
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .borderdiv {
+        width: fit-content;
+    }
+    .child3 {
+       width: auto;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .child1 {
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 955px) {
+    .avatar {
+        justify-content: space-evenly;
+    }
+    .part {
+        display: none;
+    }
+
+    .loginPage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .main {
+        margin: auto;
+    }
+
+    .nav nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .main {
+        margin-right: 10px;
+    }
+
+    .searchBar .newchild2 {
+        display: none;
+    }
+
+    .flex4 {
+        flex-direction: column;
+    }
+
+    .settingspart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .accountInfo {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .boxone, .boxtwo {
+        width: 360px;
+        margin-left: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 410px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .log {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 377px) {
+    .login, .foodDelivery {
+        align-items: center;
+    }
+    .loginField {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .field {
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .loginButtons {
+     width: 100%;
+    }
+
+    .blue, .forgot, .text, .com {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .boxone, .boxtwo {
+        width: 360px;
+        margin-left: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .logout {
+        width: 88%;
+    }
+
+    .accountInfo {
+        margin-left: 0;
+    }
+
+    .discardAndSave {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .dis {
+        margin-left: 15px;
+    }
+
+    .changes {
+        margin-left: 40px;
+    }
+
+}
